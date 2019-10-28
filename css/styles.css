@@ -1,4 +1,46 @@
 body {
-  font-family: sans-serif; }
-  body img {
-    width: 100%; }
+  color: white;
+  background: url("/images/background.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+  font-family: 'Century Gothic', 'Arial', sans-serif;
+  font-size: 20px; }
+  body header {
+    padding-top: 1rem; }
+    body header img {
+      width: 50%;
+      height: 50%; }
+  body section h2 {
+    background-color: rgba(249, 127, 144, 0.5);
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    letter-spacing: 2px; }
+  body article h2 {
+    background-color: rgba(249, 127, 144, 0.5);
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    letter-spacing: 2px; }
+  body article img {
+    width: 50%;
+    height: 50%;
+    border-radius: 5%; }
+  body article p {
+    padding-left: 15%;
+    padding-right: 15%; }
+  body article .tracks {
+    color: #0b504b;
+    text-align: left;
+    padding-left: 40%;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    background: #fcc5c1;
+    background: linear-gradient(0deg, #fcc5c1 0%, rgba(252, 197, 193, 0) 80%); }
+  body footer {
+    background-color: #f97f90;
+    padding-top: .1rem;
+    padding-bottom: .1rem; }
+    body footer .email {
+      color: #0b504b; }
+    body footer a:hover {
+      color: white; }
